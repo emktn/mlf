@@ -33,17 +33,25 @@ body {
 }
 
 .linksToStuff{
-  background: rgba(87, 11, 0, 0.7);
+  /*background: rgba(87, 11, 0, 0.7);
   color: #FFF;
   min-height: 50px;
-  text-align: center;
+  text-align: center;*/
 
+
+  color: #000 !important;
+  min-height: 50px;
+  text-align: center;
+  z-index: 5;
+  padding-top: 1em;
+  padding-left: 15em;
 }
 
 .linksToStuff a{
-  color: #FFF;
+  color: #000;
   text-decoration: none;
   padding-right: 25px;
+  cursor: pointer;
 }
 
 .theLinks{
@@ -248,52 +256,64 @@ body {
   }
 
 
-.mobileShow { display: none;}
-/* Smartphone Portrait and Landscape */
-@media only screen
-and (min-device-width : 320px)
-and (max-device-width : 480px){ .mobileShow { display: inline;}}
+  .mobileShow { display: none;}
+  /* Smartphone Portrait and Landscape */
+  @media only screen
+  and (min-device-width : 320px)
+  and (max-device-width : 480px){ .mobileShow { display: inline;}}
 
 
-.mobileHide { display: inline;}
-/* Smartphone Portrait and Landscape */
-@media only screen
-and (min-device-width : 320px)
-and (max-device-width : 480px){  .mobileHide { display: none;}}
+  .mobileHide { display: inline;}
+  /* Smartphone Portrait and Landscape */
+  @media only screen
+  and (min-device-width : 320px)
+  and (max-device-width : 480px){  .mobileHide { display: none;}}
 
 
-/*Mobile CSS*/
-@media only screen
-and (min-device-width : 320px)
-and (max-device-width : 480px){
-  .ctaNav {
-    margin-top: 59px;
-    margin-right: 17em;
+  /*Mobile CSS*/
+  @media only screen
+  and (min-device-width : 320px)
+  and (max-device-width : 480px){
+    .ctaNav {
+      margin-top: 10px;
+      /*margin-right: 17em;*/
+    }
+
+    .linksToStuff.pull-right {
+      float: none !important;
+    }
+
+    .linksToStuff {
+      padding-top: 5em !important;
+    }
+
+    #rectangle {
+      width: 70em !important;
+    }
+
+    body{
+      padding-top: 210px !important;
+    }
+
+    .contactText{
+      text-align:center!important;
+    }
+
+    .formStuffs {
+      max-width: 100%!important;
+    }
+
+
+    .cPart2{
+      text-align: center !important;
+    }
+
+    .logoMain{
+      margin-left:380px !important;
+    }
+
+
   }
-
-  body{
-    padding-top: 210px !important;
+  /*DesktopCSS*/
+  @media ( min-width: 992px ) {
   }
-
-  .contactText{
-    text-align:center!important;
-  }
-
-  .formStuffs {
-    max-width: 100%!important;
-  }
-
-
-  .cPart2{
-    text-align: center !important;
-  }
-
-  .logoMain{
-    margin-left:380px !important;
-  }
-
-
-}
-/*DesktopCSS*/
-@media ( min-width: 992px ) {
-}

@@ -38,21 +38,26 @@ if ($_POST && isset($_POST['submit'])) {
 
     $name = input($_POST['name']);
     $email = input($_POST['email']);
+    $number = input($_POST['number']);
     $message = input($_POST['message']);
 
     $subject = 'New request from your website!';
 
     $data = array(
         array(
-            'name' => 'Name',
+            'name' => 'Name:',
             'value' => $name
         ),
         array(
-            'name' => 'Email',
+            'name' => 'Email:',
             'value' => $email
         ),
         array(
-            'name' => 'Message',
+          'name' => 'Number:',
+          'value' => $number
+        ),
+        array(
+            'name' => 'Message:',
             'value' => $message
         )
     );
