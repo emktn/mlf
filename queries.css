@@ -1,8 +1,8 @@
 .mobileShow { display: none;}
-   /* Smartphone Portrait and Landscape */
-   @media only screen
-   and (min-device-width : 320px)
-   and (max-device-width : 480px){ .mobileShow { display: inline;}}
+/* Smartphone Portrait and Landscape */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px){ .mobileShow { display: inline;}}
 
 
 .mobileHide { display: inline;}
@@ -13,7 +13,36 @@ and (max-device-width : 480px){  .mobileHide { display: none;}}
 
 
 /*Mobile CSS*/
-@media ( min-width: 768px ) {
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px){
+  .ctaNav {
+    margin-top: 59px;
+    margin-right: 17em;
+  }
+
+  body{
+    padding-top: 210px !important;
+  }
+
+  .contactText{
+    text-align:center!important;
+  }
+
+  .formStuffs {
+    max-width: 100%!important;
+  }
+
+
+  .cPart2{
+    text-align: center !important;
+  }
+
+  .logoMain{
+    margin-left:380px !important;
+  }
+
+
 }
 /*DesktopCSS*/
 @media ( min-width: 992px ) {
