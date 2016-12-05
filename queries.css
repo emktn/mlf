@@ -4,6 +4,16 @@
   /*margin-left: 350px;*/
 }
 
+
+.mapOverlay {
+background:transparent;
+position:relative;
+width:640px; /* your iframe width */
+height:480px; /* your iframe height */
+top:480px; /* your iframe height */
+margin-top:-480px; /* your iframe height */
+}
+
 .navbar{
   min-height: 100px!important;
 }
