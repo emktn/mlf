@@ -6,12 +6,12 @@
 
 
 .mapOverlay {
-background:transparent;
-position:relative;
-width:640px; /* your iframe width */
-height:480px; /* your iframe height */
-top:480px; /* your iframe height */
-margin-top:-480px; /* your iframe height */
+  background:transparent;
+  position:relative;
+  width:640px; /* your iframe width */
+  height:480px; /* your iframe height */
+  top:480px; /* your iframe height */
+  margin-top:-480px; /* your iframe height */
 }
 
 .navbar{
@@ -320,6 +320,10 @@ body {
 
     .logoMain{
       margin-left:380px !important;
+    }
+
+    .paddBottomMobile{
+      margin-bottom: 2em;
     }
 
 
