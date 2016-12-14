@@ -5,6 +5,46 @@
 }
 
 
+#demos .injury-carousel {
+  margin: 2rem 0
+}
+
+#demos .injury-carousel .item {
+  /*max-height: 5em;*/
+  height: 10em !important;
+  width: 18em !important;
+  /*background: #4DC7A0;*/
+  background: url('https://images.pexels.com/photos/245032/pexels-photo-245032.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb');
+  background-size: cover;
+  padding: 1rem;
+
+}
+
+#demos .injury-carousel .owl-item{
+  margin-left: 25px;
+}
+
+#demos .injury-carousel .item h4 {
+  color: #FFF;
+  text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  font-weight: 400;
+  margin-top: 0rem;
+}
+
+#demos .injury-carousel .item-video {
+  height: 300px
+}
+
+#demos #setup {
+  margin-top: 4rem
+}
+
+#demos .demo-list h5 {
+  margin: 0
+}
+
+
+
 .mapOverlay {
   background:transparent;
   position:relative;
