@@ -84,14 +84,14 @@ body {
 
 .blockOfText{
   text-align: center;
-  border-bottom: #0d004d 10px solid !important;
+  background: #FFF !important;
 }
 
 .blockOfText h2{
   font-family: 'Playfair Display', Verdana, Geneva, 'DejaVu Sans', sans-serif;
   font-size: 30px;
   color: #570b00;
-  font-weight: bold;
+  /*font-weight: bold;*/
 }
 
 .blockOfText p{
@@ -100,8 +100,12 @@ body {
 }
 
 .textContainer{
-  margin-top: 5em;
+  margin-top: 1em;
   text-align: justify;
+  font-family: Verdana,Geneva,sans-serif;
+  font-size: 13px;
+  color: #7e7e7e;
+  line-height: 1.42857143;
 }
 
 .padd-btm{
@@ -111,7 +115,6 @@ body {
 .callToAction{
   background: #b6bbc2;
   text-align: center;
-  border-bottom: #0d004d 10px solid !important;
 
 }
 
@@ -199,7 +202,6 @@ body {
 
   .iconSection{
     background: #FFF !important;
-    border-bottom: #0d004d 10px solid !important;
 
   }
 
@@ -325,7 +327,6 @@ body {
       margin-bottom: 2em;
     }
 
-
   }
   /*DesktopCSS*/
   @media
@@ -357,3 +358,67 @@ body {
   a {
     color: #221386 !important;
   }
+
+
+
+
+  .featured_block {
+    position: relative;
+    display: table;
+    overflow: hidden;
+    margin-bottom: 18px;
+    width: 100%;
+    border: 1px solid #e0e0e0;
+}
+.featured_content {
+    position: relative;
+    display: table-cell;
+    overflow: hidden;
+    padding: 35px;
+    background-color: #fcfcfc;
+    vertical-align: middle;
+    text-align: left;
+}
+
+.featured_button {
+    position: relative;
+    display: table-cell;
+    border-left: 1px solid #e0e0e0;
+    background-color: #fff;
+    vertical-align: middle;
+}
+.featured_button_inner {
+    position: relative;
+    padding: 35px 40px;
+    text-align: center;
+}
+
+.button_large {
+    padding: 0 30px;
+    height: 48px;
+    font-size: 18px;
+    line-height: 48px;
+}
+.more-button {
+    font-family: 'Playfair Display',serif;
+    font-size: 18px;
+    color: #fff !important;
+    background: #A0260D;
+    display: inline-block;
+    border-radius: 2px;
+    padding: 0px 25px;
+    -webkit-transition: all .2s ease-out;
+    -moz-transition: all .2s ease-out;
+    -ms-transition: all .2s ease-out;
+    -o-transition: all .2s ease-out;
+    transition: all .2s ease-out;
+}
+
+.boxesBottom{
+  background: #FFF;
+  margin: 25px 5px 0 0;
+  padding: 25px;
+  /*box-shadow: 0px 0px 10px rgba(0,0,0,.8);*/
+  max-width: 20em;
+  text-align: justify;
+}
