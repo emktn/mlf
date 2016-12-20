@@ -89,7 +89,7 @@ body {
 
 .blockOfText h2{
   font-family: 'Playfair Display', Verdana, Geneva, 'DejaVu Sans', sans-serif;
-  font-size: 30px;
+  font-size: 28px;
   color: #570b00;
   /*font-weight: bold;*/
 }
@@ -351,13 +351,12 @@ body {
     padding-bottom: 25px;
   }
 
-
-  a:focus, a:hover {
+  /*a:focus, a:hover {
     color: #570b00 !important;
   }
   a {
     color: #221386 !important;
-  }
+  }*/
 
 
 
@@ -421,4 +420,93 @@ body {
   /*box-shadow: 0px 0px 10px rgba(0,0,0,.8);*/
   max-width: 20em;
   text-align: justify;
+}
+
+/*
+
+
+*/
+/*Panel tabs*/
+.panel-tabs {
+    position: relative;
+    bottom: 30px;
+    clear:both;
+    border-bottom: 1px solid transparent;
+}
+
+.panel-tabs > li {
+    float: left;
+    margin-bottom: -1px;
+}
+
+.panel-tabs > li > a {
+    margin-right: 2px;
+    margin-top: 4px;
+    line-height: .85;
+    border: 1px solid transparent;
+    border-radius: 4px 4px 0 0;
+    color: #ffffff;
+}
+
+.panel-tabs > li > a:hover {
+    border-color: transparent;
+    color: #ffffff;
+    background-color: transparent;
+}
+
+.panel-tabs > li.active > a,
+.panel-tabs > li.active > a:hover,
+.panel-tabs > li.active > a:focus {
+    color: #fff;
+    cursor: default;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    background-color: rgba(255,255,255, .23);
+    border-bottom-color: transparent;
+}
+
+
+
+
+
+.changingImages{
+  display: none;
+  /*max-width: 100%;*/
+  padding-top: 70px;
+  width: 527px;
+  height: 420px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+
+.ulServices {
+    color: #333333 !important;
+    font-weight: 700;
+    font-size: 15px;
+    /*padding: 50px 0 0 0;*/
+}
+
+.ulServices a {
+    color: #333333 !important;
+
+}
+
+
+.ulServices ul, li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+.imageChangesSection{
+  margin: 25px 0 25px 0;
+}
+
+
+.testimonialVids{
+  margin: 25px 0 0 0;
 }
