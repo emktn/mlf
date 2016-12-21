@@ -28,12 +28,10 @@
   background: #570b00;
   color:#FFF;
   text-align: center;
-  -webkit-clip-path: polygon(100% 0, 100% 100%, 15% 100%, 0 0, 0 0);
   clip-path: polygon(100% 0, 100% 100%, 15% 100%, 0 0, 0 0);
-
-
-
-
+  -webkit-clip-path: polygon(100% 0, 100% 100%, 15% 100%, 0 0, 0 0);
+  -o-clip-path: polygon(100% 0, 100% 100%, 15% 100%, 0 0, 0 0);
+  -ms-clip-path: polygon(100% 0, 100% 100%, 15% 100%, 0 0, 0 0);
 }
 
 body {
@@ -354,23 +352,61 @@ body {
 
 
   @media only screen
-and (min-width : 1224px) {
-  .linksToStuff{
-    padding-left: 7em !important;
+  and (min-width : 1224px) {
+    .linksToStuff{
+      padding-left: 2em !important;
+    }
+
+
+    #rectangle {
+      width: 23em;
+    }
+
+    #rectangle h3{
+      font-size: 15px;
+      padding-top: 15px;
+    }
+
   }
 
+  /* Portrait tablet to landscape and desktop */
+  @media (min-width: 768px) and (max-width: 1270px) {
 
-  #rectangle {
-    width: 30em;
-  }
+    .linksToStuff{
+      padding-left: 1em !important;
+    }
 
-  #rectangle h3{
-    font-size: 18px;
-    padding-top: 15px;
-  }
+    #rectangle {
+      width: 16em;
+    }
+    #rectangle h3{
+      font-size: 15px;
+      padding-top: 5px;
+    }
+    .tab-link {
+      padding: 14px !important;
+      font-size: 15px !important;
+    }
 
+    .boxesBottom {
+    margin: 25px 0px 0 0 !important;
 }
 
+
+  }
+  .videoWrapper {
+  	position: relative;
+  	padding-bottom: 56.25%; /* 16:9 */
+  	padding-top: 25px;
+  	height: 0;
+  }
+  .videoWrapper iframe {
+  	position: absolute;
+  	top: 0;
+  	left: 0;
+  	width: 100%;
+  	height: 100%;
+  }
 
   .practiceAreaSection{
     padding: 25px 0 25px 0;
