@@ -4,6 +4,10 @@
   /*margin-left: 350px;*/
 }
 
+
+
+
+
 .mapOverlay {
   background:transparent;
   position:relative;
@@ -14,7 +18,7 @@
 }
 
 .navbar{
-  min-height: 100px!important;
+  min-height: 100px !important;
 }
 .navbar-default {
   background-color: #FFF;
@@ -35,8 +39,110 @@
 }
 
 body {
-  padding-top: 103px;
+  padding-top: 135px !important;
   background-color: #f6f6f6;
+}
+
+
+
+
+/*---- Top bar ----*/
+
+#top-bar {
+  background: #590b00;
+  padding: 0;
+}
+.somePadding {
+    padding: 10px 0 10px 0;
+}
+
+.fa-phone {
+  color: #FFF  !important;
+}
+
+/* Top social */
+
+.top-social{
+  border-left: 1px solid #450c0e;
+}
+
+.top-social a{
+  margin-left: -4px;
+}
+
+.top-social a i {
+  border-right: 1px solid #450c0e;
+  font-size: 16px;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  vertical-align: middle;
+  text-align: center;
+  display: inline-block !important;
+  -webkit-transition: color .2s ease-in;
+  transition: color .2s ease-in;
+}
+
+.top-social a i.fa-facebook {
+  color: #FFF;
+}
+
+.top-social a i.fa-twitter {
+  color: #FFF;
+}
+
+.top-social a i.fa-google-plus {
+  color: #FFF;
+}
+
+.top-social a i.fa-youtube {
+  color: #9d261d;
+}
+
+.top-social a i.fa-linkedin {
+  color: #3daccf;
+}
+
+.top-social i:hover{
+  color: #fff !important;
+}
+
+.top-social i.fa-facebook:hover {
+  background: #5d82d1;
+}
+
+.top-social i.fa-twitter:hover {
+  background: #70c2e9;
+}
+
+.top-social i.fa-google-plus:hover {
+  background: #eb5e4c;
+}
+
+.top-social i.fa-youtube:hover {
+  background: #9d261d;
+}
+
+.top-social i.fa-linkedin:hover {
+  background: #3daccf;
+}
+
+
+/* Top info */
+
+ul.top-info{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  float: right;
+}
+
+ul.top-info li{
+  float: left;
+  font-size: 14px;
+  margin-top: 8px;
+  margin-left: 10px;
+  font-weight: 700;
 }
 
 .linksToStuff{
@@ -288,6 +394,19 @@ body {
       /*margin-right: 17em;*/
     }
 
+    div#navbar1 {
+    padding-top: 25px;
+    margin-right: 15%;
+}
+
+.logoMain{
+  /*margin-right: 20%;*/
+}
+
+body{
+
+}
+
     .linksToStuff.pull-right {
       float: none !important;
     }
@@ -301,7 +420,7 @@ body {
     }
 
     body{
-      padding-top: 210px !important;
+      padding-top: 190px !important;
     }
 
     .contactText{
@@ -318,7 +437,7 @@ body {
     }
 
     .logoMain{
-      margin-left:380px !important;
+      margin-left: 125% !important;
     }
 
     .paddBottomMobile{
