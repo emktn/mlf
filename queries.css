@@ -4,7 +4,98 @@
   /*margin-left: 350px;*/
 }
 
+.image_container_img img {
+  max-width: 18.7em !important;
+  max-height: 15em;
+  overflow: hidden;
 
+}
+
+.cmsms_our_team_wrap {
+    position: relative;
+    overflow: visible;
+    margin-top: 55px;
+}
+.wrap_person {
+    position: relative;
+}
+
+#main article .image_container_img img {
+    height: 188px;
+}
+#main article img {
+    height: auto;
+    max-width: 100%;
+}
+img {
+    vertical-align: middle;
+    border: 0;
+}
+.cmsms_header_wrap {
+    border: 1px solid #e0e0e0;
+    background-color: #fcfcfc;
+    padding-bottom: 20px;
+    margin-bottom: 25px;
+}
+.header-entry {
+    position: relative;
+    z-index: 10;
+    margin: -35px 5% 0;
+    padding: 10px;
+    background-color: #fff;
+    text-align: center;
+    border: 1px solid #e0e0e0;
+}
+.cmsms_our_team_wrap .person_subtitle {
+    padding: 0;
+    color: #a02209;
+    font-size: 12px;
+}
+
+p.person_subtitle {
+    text-align: center;
+}
+
+.cmsms_our_team_wrap .entry-content {
+    font-family: times new roman,times;
+    padding: 20px;
+    text-align: center;
+}
+
+.cmsms_profile_button {
+    text-align: center;
+}
+
+.more-button {
+    font-family: 'Playfair Display',serif;
+    font-size: 13px;
+    color: #fff;
+    background: #A0260D;
+    display: inline-block;
+    border-radius: 2px;
+    padding: 9px 24px;
+    -webkit-transition: all .2s ease-out;
+    -moz-transition: all .2s ease-out;
+    -ms-transition: all .2s ease-out;
+    -o-transition: all .2s ease-out;
+    transition: all .2s ease-out;
+}
+a {
+    font-family: 'Playfair Display',Calibri,AppleGothic,'MgOpen Modata',sans-serif !important;
+    font-weight: bold !important;
+}
+a {
+    color: #a02209;
+    text-decoration: none;
+    -webkit-transition: color .2s ease-out;
+    -moz-transition: color .2s ease-out;
+    -ms-transition: color .2s ease-out;
+    -o-transition: color .2s ease-out;
+    transition: color .2s ease-out;
+}
+a {
+    background-color: transparent;
+}
 
 
 
@@ -403,7 +494,10 @@ ul.top-info li{
   /*margin-right: 20%;*/
 }
 
-body{
+.image_container_img img {
+  max-width: 24.7em !important;
+  max-height: 15em;
+  overflow: hidden;
 
 }
 
