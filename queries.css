@@ -4,12 +4,12 @@
   /*margin-left: 350px;*/
 }
 
-.image_container_img img {
+/*.image_container_img img {
   max-width: 18.7em !important;
   max-height: 15em;
   overflow: hidden;
 
-}
+}*/
 
 .cmsms_our_team_wrap {
     position: relative;
@@ -494,12 +494,12 @@ ul.top-info li{
   /*margin-right: 20%;*/
 }
 
-.image_container_img img {
+/*.image_container_img img {
   max-width: 24.7em !important;
   max-height: 15em;
   overflow: hidden;
 
-}
+}*/
 
     .linksToStuff.pull-right {
       float: none !important;
@@ -583,7 +583,7 @@ ul.top-info li{
   }
 
   /* Portrait tablet to landscape and desktop */
-  @media (min-width: 768px) and (max-width: 1270px) {
+  @media (min-width: 768px) and (max-width: 1024px) {
 
     .linksToStuff{
       padding-left: 1em !important;
@@ -605,8 +605,17 @@ ul.top-info li{
     margin: 25px 0px 0 0 !important;
 }
 
+  .image_container_img img {
+    width: 24.7em !important;
+    height: 15em;
+    overflow: hidden;
 
   }
+
+}
+
+
+
   .videoWrapper {
   	position: relative;
   	padding-bottom: 56.25%; /* 16:9 */
