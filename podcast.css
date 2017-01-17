@@ -13,6 +13,9 @@ html {
     color: #888;
     font-weight: 100
 }
+i.fa.fa-angle-right {
+    margin-left: 10px;
+}
 
 .jAudio {
     display: table;
